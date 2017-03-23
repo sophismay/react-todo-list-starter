@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-babel",
   "version": "0.0.3",
-  "description": "React Webpack Babel Starter Kit",
+  "description": "Todo list app based on React Webpack Babel Starter Kit",
   "main": "''",
   "scripts": {
     "build": "webpack --config webpack.production.config.js --progress --profile --colors",
