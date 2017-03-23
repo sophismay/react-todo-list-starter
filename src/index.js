@@ -1,11 +1,13 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
-import App from './app.jsx';
+//import { AppContainer } from 'react-hot-loader';
+import TodoApp from './app.js';
 
-render( <AppContainer><App/></AppContainer>, document.querySelector("#app"));
+//render( <AppContainer><App/></AppContainer>, document.querySelector("#app"));
 
-if (module && module.hot) {
+render( <TodoApp/>, document.querySelector("#app"));
+
+/*if (module && module.hot) {
   module.hot.accept('./app.jsx', () => {
     const App = require('./app.jsx').default;
     render(
@@ -15,4 +17,4 @@ if (module && module.hot) {
       document.querySelector("#app")
     );
   });
-}
+}*/
