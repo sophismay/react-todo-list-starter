@@ -1,7 +1,11 @@
 import React from 'react';
 import '../styles/index.scss';
 
-export default class TodoApp extends React.Component {
+var TodoApp =  new React.createClass({
+  componentDidMount() {
+    
+  },
+
   render() {
     return (
       <div>
@@ -9,4 +13,6 @@ export default class TodoApp extends React.Component {
       </div>
     )
   }
-}
+});
+
+export default TodoApp;
