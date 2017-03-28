@@ -3,6 +3,9 @@ React todo list starter template for the purpose of presentation. Based on [reac
 
 Try this is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/) and [Babel](https://babeljs.io/) application with nothing else in it.
 
+### Final Presentation Work
+The final work can be found on the [final](https://github.com/sophismay/react-todo-list-starter/tree/final) branch
+
 ### What's in it?
 
 * Simple src/index.jsx and src/index.css (local module css).
